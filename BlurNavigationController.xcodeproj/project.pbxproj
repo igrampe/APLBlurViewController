@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53DB7E891B9B8D85009908DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7E881B9B8D85009908DB /* main.m */; };
+		53DB7E8C1B9B8D85009908DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7E8B1B9B8D85009908DB /* AppDelegate.m */; };
+		53DB7E8F1B9B8D85009908DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7E8E1B9B8D85009908DB /* ViewController.m */; };
+		53DB7E921B9B8D85009908DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DB7E901B9B8D85009908DB /* Main.storyboard */; };
+		53DB7E941B9B8D85009908DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DB7E931B9B8D85009908DB /* Images.xcassets */; };
+		53DB7E971B9B8D85009908DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DB7E951B9B8D85009908DB /* LaunchScreen.xib */; };
+		53DB7EA31B9B8D85009908DB /* BlurNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7EA21B9B8D85009908DB /* BlurNavigationControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53DB7E9D1B9B8D85009908DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53DB7E7B1B9B8D85009908DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DB7E821B9B8D85009908DB;
+			remoteInfo = BlurNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53DB7E831B9B8D85009908DB /* BlurNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DB7E871B9B8D85009908DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DB7E881B9B8D85009908DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53DB7E8A1B9B8D85009908DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53DB7E8B1B9B8D85009908DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53DB7E8D1B9B8D85009908DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53DB7E8E1B9B8D85009908DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53DB7E911B9B8D85009908DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53DB7E931B9B8D85009908DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53DB7E961B9B8D85009908DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		53DB7E9C1B9B8D85009908DB /* BlurNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DB7EA11B9B8D85009908DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DB7EA21B9B8D85009908DB /* BlurNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurNavigationControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53DB7E801B9B8D85009908DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DB7E991B9B8D85009908DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53DB7E7A1B9B8D85009908DB = {
+			isa = PBXGroup;
+			children = (
+				53DB7E851B9B8D85009908DB /* BlurNavigationController */,
+				53DB7E9F1B9B8D85009908DB /* BlurNavigationControllerTests */,
+				53DB7E841B9B8D85009908DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53DB7E841B9B8D85009908DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53DB7E831B9B8D85009908DB /* BlurNavigationController.app */,
+				53DB7E9C1B9B8D85009908DB /* BlurNavigationControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53DB7E851B9B8D85009908DB /* BlurNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				53DB7E8A1B9B8D85009908DB /* AppDelegate.h */,
+				53DB7E8B1B9B8D85009908DB /* AppDelegate.m */,
+				53DB7E8D1B9B8D85009908DB /* ViewController.h */,
+				53DB7E8E1B9B8D85009908DB /* ViewController.m */,
+				53DB7E901B9B8D85009908DB /* Main.storyboard */,
+				53DB7E931B9B8D85009908DB /* Images.xcassets */,
+				53DB7E951B9B8D85009908DB /* LaunchScreen.xib */,
+				53DB7E861B9B8D85009908DB /* Supporting Files */,
+			);
+			path = BlurNavigationController;
+			sourceTree = "<group>";
+		};
+		53DB7E861B9B8D85009908DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53DB7E871B9B8D85009908DB /* Info.plist */,
+				53DB7E881B9B8D85009908DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53DB7E9F1B9B8D85009908DB /* BlurNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				53DB7EA21B9B8D85009908DB /* BlurNavigationControllerTests.m */,
+				53DB7EA01B9B8D85009908DB /* Supporting Files */,
+			);
+			path = BlurNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		53DB7EA01B9B8D85009908DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53DB7EA11B9B8D85009908DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53DB7E821B9B8D85009908DB /* BlurNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DB7EA61B9B8D85009908DB /* Build configuration list for PBXNativeTarget "BlurNavigationController" */;
+			buildPhases = (
+				53DB7E7F1B9B8D85009908DB /* Sources */,
+				53DB7E801B9B8D85009908DB /* Frameworks */,
+				53DB7E811B9B8D85009908DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurNavigationController;
+			productName = BlurNavigationController;
+			productReference = 53DB7E831B9B8D85009908DB /* BlurNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53DB7E9B1B9B8D85009908DB /* BlurNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DB7EA91B9B8D85009908DB /* Build configuration list for PBXNativeTarget "BlurNavigationControllerTests" */;
+			buildPhases = (
+				53DB7E981B9B8D85009908DB /* Sources */,
+				53DB7E991B9B8D85009908DB /* Frameworks */,
+				53DB7E9A1B9B8D85009908DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53DB7E9E1B9B8D85009908DB /* PBXTargetDependency */,
+			);
+			name = BlurNavigationControllerTests;
+			productName = BlurNavigationControllerTests;
+			productReference = 53DB7E9C1B9B8D85009908DB /* BlurNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53DB7E7B1B9B8D85009908DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "App Plus";
+				TargetAttributes = {
+					53DB7E821B9B8D85009908DB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					53DB7E9B1B9B8D85009908DB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 53DB7E821B9B8D85009908DB;
+					};
+				};
+			};
+			buildConfigurationList = 53DB7E7E1B9B8D85009908DB /* Build configuration list for PBXProject "BlurNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53DB7E7A1B9B8D85009908DB;
+			productRefGroup = 53DB7E841B9B8D85009908DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53DB7E821B9B8D85009908DB /* BlurNavigationController */,
+				53DB7E9B1B9B8D85009908DB /* BlurNavigationControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53DB7E811B9B8D85009908DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DB7E921B9B8D85009908DB /* Main.storyboard in Resources */,
+				53DB7E971B9B8D85009908DB /* LaunchScreen.xib in Resources */,
+				53DB7E941B9B8D85009908DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DB7E9A1B9B8D85009908DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53DB7E7F1B9B8D85009908DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DB7E8F1B9B8D85009908DB /* ViewController.m in Sources */,
+				53DB7E8C1B9B8D85009908DB /* AppDelegate.m in Sources */,
+				53DB7E891B9B8D85009908DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DB7E981B9B8D85009908DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DB7EA31B9B8D85009908DB /* BlurNavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53DB7E9E1B9B8D85009908DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DB7E821B9B8D85009908DB /* BlurNavigationController */;
+			targetProxy = 53DB7E9D1B9B8D85009908DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53DB7E901B9B8D85009908DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53DB7E911B9B8D85009908DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53DB7E951B9B8D85009908DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53DB7E961B9B8D85009908DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53DB7EA41B9B8D85009908DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53DB7EA51B9B8D85009908DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53DB7EA71B9B8D85009908DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53DB7EA81B9B8D85009908DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		53DB7EAA1B9B8D85009908DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlurNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurNavigationController.app/BlurNavigationController";
+			};
+			name = Debug;
+		};
+		53DB7EAB1B9B8D85009908DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlurNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurNavigationController.app/BlurNavigationController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53DB7E7E1B9B8D85009908DB /* Build configuration list for PBXProject "BlurNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DB7EA41B9B8D85009908DB /* Debug */,
+				53DB7EA51B9B8D85009908DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DB7EA61B9B8D85009908DB /* Build configuration list for PBXNativeTarget "BlurNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DB7EA71B9B8D85009908DB /* Debug */,
+				53DB7EA81B9B8D85009908DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53DB7EA91B9B8D85009908DB /* Build configuration list for PBXNativeTarget "BlurNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53DB7EAA1B9B8D85009908DB /* Debug */,
+				53DB7EAB1B9B8D85009908DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53DB7E7B1B9B8D85009908DB /* Project object */;
+}
