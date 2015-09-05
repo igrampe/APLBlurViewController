@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E445767-5E6B-47B9-9F29-7DAA9B6624C7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BlurNavigationController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BC827B1DEFEA6AB442A2F834C31FDE330C30C98</key>
+		<string>github.com:igrampe/APLBlurViewController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BlurNavigationController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BC827B1DEFEA6AB442A2F834C31FDE330C30C98</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:igrampe/APLBlurViewController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BC827B1DEFEA6AB442A2F834C31FDE330C30C98</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BC827B1DEFEA6AB442A2F834C31FDE330C30C98</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BlurNavigationController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
