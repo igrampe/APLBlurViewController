@@ -1,0 +1,47 @@
+//
+//  PrefixHeader.pch
+//  APL
+//
+//  Created by Semyon Belokovsky on 13.09.14.
+//  Copyright (c) 2014 App Plus. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define UDID ([[[UIDevice currentDevice] identifierForVendor] UUIDString])
+#define IOS_VERSION ([[[UIDevice currentDevice] systemVersion] floatValue])
+#define IS_IPAD	(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define USER_DEFAULTS [NSUserDefaults standardUserDefaults]
+
+#define SCREEN_MULTI (IS_IPAD?1:([UIScreen mainScreen].bounds.size.width/320))
+
+#define MAIN_SCREEN [UIScreen mainScreen]
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#   define NSLog(...)
+#endif
+
+#define NOTIFICATION_CENTER [NSNotificationCenter defaultCenter]
+#define USER_DEFAULTS [NSUserDefaults standardUserDefaults]
+
+#define NSLS(string) NSLocalizedString(string, @"")
+
+#define API_DEBUG
+
+#ifdef API_DEBUG
+#   define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define ALog(...)
+#endif

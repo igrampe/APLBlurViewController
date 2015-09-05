@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		53DB7E891B9B8D85009908DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7E881B9B8D85009908DB /* main.m */; };
 		53DB7E8C1B9B8D85009908DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7E8B1B9B8D85009908DB /* AppDelegate.m */; };
-		53DB7E8F1B9B8D85009908DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7E8E1B9B8D85009908DB /* ViewController.m */; };
+		53DB7E8F1B9B8D85009908DB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7E8E1B9B8D85009908DB /* MainViewController.m */; };
 		53DB7E921B9B8D85009908DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DB7E901B9B8D85009908DB /* Main.storyboard */; };
 		53DB7E941B9B8D85009908DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DB7E931B9B8D85009908DB /* Images.xcassets */; };
 		53DB7E971B9B8D85009908DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DB7E951B9B8D85009908DB /* LaunchScreen.xib */; };
 		53DB7EA31B9B8D85009908DB /* BlurNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7EA21B9B8D85009908DB /* BlurNavigationControllerTests.m */; };
+		53DB7EB51B9B8DCD009908DB /* APLBlurNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7EAE1B9B8DCD009908DB /* APLBlurNavigationController.m */; };
+		53DB7EB61B9B8DCD009908DB /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7EB21B9B8DCD009908DB /* UIImage+ImageEffects.m */; };
+		53DB7EB71B9B8DCD009908DB /* UIView+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7EB41B9B8DCD009908DB /* UIView+Blur.m */; };
+		53DB7EBB1B9B8E70009908DB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB7EBA1B9B8E70009908DB /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,23 @@
 		53DB7E881B9B8D85009908DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53DB7E8A1B9B8D85009908DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53DB7E8B1B9B8D85009908DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		53DB7E8D1B9B8D85009908DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		53DB7E8E1B9B8D85009908DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53DB7E8D1B9B8D85009908DB /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		53DB7E8E1B9B8D85009908DB /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		53DB7E911B9B8D85009908DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53DB7E931B9B8D85009908DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53DB7E961B9B8D85009908DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		53DB7E9C1B9B8D85009908DB /* BlurNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DB7EA11B9B8D85009908DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53DB7EA21B9B8D85009908DB /* BlurNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurNavigationControllerTests.m; sourceTree = "<group>"; };
+		53DB7EAD1B9B8DCD009908DB /* APLBlurNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLBlurNavigationController.h; sourceTree = "<group>"; };
+		53DB7EAE1B9B8DCD009908DB /* APLBlurNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLBlurNavigationController.m; sourceTree = "<group>"; };
+		53DB7EB11B9B8DCD009908DB /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		53DB7EB21B9B8DCD009908DB /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		53DB7EB31B9B8DCD009908DB /* UIView+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Blur.h"; sourceTree = "<group>"; };
+		53DB7EB41B9B8DCD009908DB /* UIView+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Blur.m"; sourceTree = "<group>"; };
+		53DB7EB81B9B8E10009908DB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		53DB7EB91B9B8E70009908DB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		53DB7EBA1B9B8E70009908DB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +94,14 @@
 		53DB7E851B9B8D85009908DB /* BlurNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				53DB7EAC1B9B8DCD009908DB /* APLBlurViewController */,
+				53DB7EB01B9B8DCD009908DB /* BlurHelpers */,
 				53DB7E8A1B9B8D85009908DB /* AppDelegate.h */,
 				53DB7E8B1B9B8D85009908DB /* AppDelegate.m */,
-				53DB7E8D1B9B8D85009908DB /* ViewController.h */,
-				53DB7E8E1B9B8D85009908DB /* ViewController.m */,
+				53DB7E8D1B9B8D85009908DB /* MainViewController.h */,
+				53DB7E8E1B9B8D85009908DB /* MainViewController.m */,
+				53DB7EB91B9B8E70009908DB /* SecondViewController.h */,
+				53DB7EBA1B9B8E70009908DB /* SecondViewController.m */,
 				53DB7E901B9B8D85009908DB /* Main.storyboard */,
 				53DB7E931B9B8D85009908DB /* Images.xcassets */,
 				53DB7E951B9B8D85009908DB /* LaunchScreen.xib */,
@@ -96,6 +113,7 @@
 		53DB7E861B9B8D85009908DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				53DB7EB81B9B8E10009908DB /* PrefixHeader.pch */,
 				53DB7E871B9B8D85009908DB /* Info.plist */,
 				53DB7E881B9B8D85009908DB /* main.m */,
 			);
@@ -117,6 +135,26 @@
 				53DB7EA11B9B8D85009908DB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53DB7EAC1B9B8DCD009908DB /* APLBlurViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53DB7EAD1B9B8DCD009908DB /* APLBlurNavigationController.h */,
+				53DB7EAE1B9B8DCD009908DB /* APLBlurNavigationController.m */,
+			);
+			path = APLBlurViewController;
+			sourceTree = "<group>";
+		};
+		53DB7EB01B9B8DCD009908DB /* BlurHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				53DB7EB11B9B8DCD009908DB /* UIImage+ImageEffects.h */,
+				53DB7EB21B9B8DCD009908DB /* UIImage+ImageEffects.m */,
+				53DB7EB31B9B8DCD009908DB /* UIView+Blur.h */,
+				53DB7EB41B9B8DCD009908DB /* UIView+Blur.m */,
+			);
+			path = BlurHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +201,7 @@
 		53DB7E7B1B9B8D85009908DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = APL;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "App Plus";
 				TargetAttributes = {
@@ -219,8 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53DB7E8F1B9B8D85009908DB /* ViewController.m in Sources */,
+				53DB7E8F1B9B8D85009908DB /* MainViewController.m in Sources */,
+				53DB7EB61B9B8DCD009908DB /* UIImage+ImageEffects.m in Sources */,
 				53DB7E8C1B9B8D85009908DB /* AppDelegate.m in Sources */,
+				53DB7EBB1B9B8E70009908DB /* SecondViewController.m in Sources */,
+				53DB7EB71B9B8DCD009908DB /* UIView+Blur.m in Sources */,
+				53DB7EB51B9B8DCD009908DB /* APLBlurNavigationController.m in Sources */,
 				53DB7E891B9B8D85009908DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BlurNavigationController/PrefixHeader.pch;
 				INFOPLIST_FILE = BlurNavigationController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BlurNavigationController/PrefixHeader.pch;
 				INFOPLIST_FILE = BlurNavigationController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
